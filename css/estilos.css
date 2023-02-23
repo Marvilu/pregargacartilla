@@ -1,0 +1,156 @@
+body{
+    background: url("../img/Imagen2.png");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div
+{
+    align-items: center;
+}
+
+input[type="date"]{
+    background: rgb(136, 193, 225) ;
+}
+
+.form-input, .form-textarea{
+    width: 100%;
+    background: rgb(136, 193, 225);
+    border: none;
+}
+
+table{
+    background:rgb(136, 193, 225);
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    max-width: 650px;
+    border-collapse: collapse;
+    
+}
+
+td, tr{
+    border-top: solid 1px black;
+    padding: 0px;
+ }
+
+ thead{
+    background-color: rgb(54, 156, 214);
+    border-bottom: solid 5px rgb(54, 156, 214);
+    border-left:solid 5px rgb(54, 156, 214);;
+    border-right: solid 5px rgb(54, 156, 214);
+    border-top: solid 5px rgb(54, 156, 214);
+    text-align: center;
+
+ }
+
+ tr:hover td{
+    background-color: rgb(33, 124, 176);
+ }
+ .boton {
+    background-color: darkgrey;
+    color: black;
+    padding: 5px 15px;
+    text-decoration: none;
+    margin-top: 60px;
+ }
+ .boton_act {
+    color:blue;
+    text-decoration: none;
+    font-size: 16px;
+ }
+ .title{
+    margin: 0;
+    color: royalblue;
+    text-align: center;
+    font-size: 30px;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+ }
+ .form-title{
+    text-align: center;
+ }
+
+ .form-table{
+    background: white;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    max-width: 650px;
+    border-collapse: none;
+}
+.form-log
+{
+    width: 400px;
+    height: 380px;
+    background-color: #646363;
+    margin: auto;
+    margin-top: 180px;
+    box-shadow: 7px 13px 37px rgb(0,0,0);
+    padding: 20px 30px;
+    border-top: 4px solid #017bab;
+    color: white;
+    text-align: center;
+}
+.form-log h5 {
+   margin: 0;
+   text-align: center;
+   height: 40px;
+   margin-bottom: 10px;
+   font-size: 20px;
+}
+.init{
+    width: 100%;
+    border: 1px solid #017bab;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #252323 ;
+    font-size: 14px;
+    font-weight: bold;
+}
+.botton{
+    width: 100%;
+    height: 40px;
+    background: #017bab;
+    border: none;
+    color: white;
+    margin-bottom: 20px;
+    margin-right:0px;
+}
+
+.a-boton{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.form-log a:hover{
+    text-decoration: underline;
+}
+input[type="submit"]
+{
+    font-size: 16px;
+    width: 100%;
+}
+/*agregado*/
+.boton-sec{
+    text-align: right;
+}
+
+.form-log input:hover
+{
+    color: white;
+}
+
+.form-error{
+    display: block;
+    color: rgb(253, 6, 6);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.form_boton{
+    box-align:center;
+}
